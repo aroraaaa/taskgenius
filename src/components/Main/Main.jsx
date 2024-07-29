@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+ import React, { useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Main.css';
 import { assets } from '../../assets/assets';
@@ -147,7 +147,7 @@ const Main = () => {
                         </div>
                     </div>
                     <p className='bottom-info'>
-                        TaskGenius can mistakes. Kindly double-check it for yourself as well.
+                        TaskGenius can make mistakes. Kindly double-check it for yourself as well.
                     </p>
                 </div>
             </div>
